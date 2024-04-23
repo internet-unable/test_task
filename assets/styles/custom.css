@@ -1,0 +1,31 @@
+.publish-comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+
+.publish-comment__textarea {
+    flex: 1;
+    resize: none;
+    padding: 10px;
+}
+
+.publish-comment__btn {
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 15;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0, .74);
+    background-color: #ed9220;
+}
+
+.publish-comment__textarea,
+.publish-comment__btn:focus {
+    outline: none;
+}
+
+.publish-comment__btn:hover {
+    background-color: rgb(237, 146, 32, 0.75);
+}
