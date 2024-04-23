@@ -18,7 +18,7 @@
         var brand_country = 'Spain';
         var dayNames = Array("Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado");
         var monthNames = new Array("Janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro");
-        var img_regalo = "img-2.png";
+        var img_regalo = "assets/img/img-2.png";
         var minutos_y = "minutos e ";
         var segundos = "segundos ";
         var url_f = "";
@@ -34,12 +34,12 @@
         }
 
         body.with_background {
-            background: url("img-1.png");
+            background: url("assets/img/img-1.png");
         }
 
         @media (max-width: 800px) {
             body.with_background {
-                background: url("img-1.png");
+                background: url("assets/img/img-1.png");
             }
         }
 
@@ -49,7 +49,7 @@
     </style>
     <link rel="stylesheet" type="text/css" href="assets/styles/sur.min.css">
     <!--Facebook Pixel Code-->
-    <script>
+    <!-- <script>
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return;
             n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) };
@@ -67,7 +67,7 @@
             (window, document, 'script', '//connect.facebook.net/en_US/fbevents.js');
         fbq('init', '{lander.param:fbpixel}');
         fbq('track', "PageView");
-    </script>
+    </script> -->
     <noscript>
         <img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id={lander.param:fbpixel}&ev=PageView&noscript=1" />
@@ -201,18 +201,10 @@
                                     </font>
                                 </span>
                             </p>
-                            <div class="survey_button bq1" data-bq="1">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">Masculino</font>
-                                </font>
-                            </div>
-                            <div class="survey_button bq1" data-bq="2">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">Femenino</font>
-                                </font>
-                            </div>
-
+                            <div class="survey_button bq1" data-bq="1">Masculino</div>
+                            <div class="survey_button bq1" data-bq="2">Femenino</div>
                         </div>
+
                         <div id="q2">
                             <p class="question">
                                 <strong>
@@ -226,27 +218,12 @@
                                     </font>
                                 </span>
                             </p>
-                            <div class="survey_button bq2" data-bq="1">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">18-29</font>
-                                </font>
-                            </div>
-                            <div class="survey_button bq2" data-bq="2">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">30-39</font>
-                                </font>
-                            </div>
-                            <div class="survey_button bq2" data-bq="3">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">40-49</font>
-                                </font>
-                            </div>
-                            <div class="survey_button bq2" data-bq="4">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">50+</font>
-                                </font>
-                            </div>
+                            <div class="survey_button bq2" data-bq="1">18-29</div>
+                            <div class="survey_button bq2" data-bq="2">30-39</div>
+                            <div class="survey_button bq2" data-bq="3">40-49</div>
+                            <div class="survey_button bq2" data-bq="4">50+</div>
                         </div>
+
                         <div id="q3">
                             <p class="question">
                                 <strong>
@@ -261,28 +238,13 @@
                                     </font>
                                 </span>
                             </p>
-
-                            <div class="survey_button bq3" data-bq="1">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">1</font>
-                                </font>
-                            </div>
-                            <div class="survey_button bq3" data-bq="2">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">2</font>
-                                </font>
-                            </div>
-                            <div class="survey_button bq3" data-bq="3">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">3+</font>
-                                </font>
-                            </div>
+                            <div class="survey_button bq3" data-bq="1">1</div>
+                            <div class="survey_button bq3" data-bq="2">2</div>
+                            <div class="survey_button bq3" data-bq="3">3+</div>
                         </div>
+
                         <div id="q4">
                             <p class="question">
-
-
-
                                 <strong>
                                     <font style="vertical-align: inherit;">
                                         <font style="vertical-align: inherit;">Questão 4/4:</font>
@@ -295,16 +257,8 @@
                                     </font>
                                 </span>
                             </p>
-                            <div class="survey_button bq4" data-bq="1">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">Sim</font>
-                                </font>
-                            </div>
-                            <div class="survey_button bq4" data-bq="2">
-                                <font style="vertical-align: inherit;">
-                                    <font style="vertical-align: inherit;">Não</font>
-                                </font>
-                            </div>
+                            <div class="survey_button bq4" data-bq="1">Sim</div>
+                            <div class="survey_button bq4" data-bq="2">Não</div>
                         </div>
                     </div>
                     <link rel="stylesheet" type="text/css" href="assets/styles/survey.min.css">
@@ -351,7 +305,7 @@
                     <link rel="stylesheet" type="text/css" href="assets/styles/box.min.css">
                     <style type="text/css">
                         .boxes {
-                            background-image: url(assets/img-1.png);
+                            background-image: url(assets/img/img-1.png);
                         }
                     </style>
                     <div id="boxes" class="boxes">
@@ -585,8 +539,8 @@
                                         novo iPhone 11 Pro,
                                         incluindo frete.</p>
                                     <p>3. Seu iPhone11 Pro será enviado dentro de 5 a 7 dias.</p>
-                                    <a href="http://{trackingdomain}/click/?origin={origin}&fbpixel={lander.param:fbpixel}"
-                                        onclick="fbq('track', 'InitiateCheckout');" id="p_modal_button3"
+                                    <a href="#"
+                                        id="p_modal_button3"
                                         class="btn btn-success btn-lg"
                                         style="background-color:#ed9220; border-color:#ed9220">OK</a>
                                 </div>
